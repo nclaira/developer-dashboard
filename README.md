@@ -197,32 +197,17 @@ Through this project, I learned:
 - Using normal functions instead of arrow functions
 - Version control with Git and GitHub
 
-## 🤝 Contributing
 
-This is a student project, but suggestions are welcome! Feel free to:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - GitHub API for providing free access to user data
 - Open-Meteo for free weather data
 - React team for the amazing framework
 - Tailwind CSS for the utility-first CSS framework
-
----
 
 **Note**: Remember to replace placeholder values (username, location, screenshots) with your actual information before submitting!
 
@@ -233,3 +218,7 @@ This project is open source and available for educational purposes.
 - [Open-Meteo API Documentation](https://open-meteo.com/en/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/)
+
+
+
+![alt text](developer-app/public/Screenshot1.png)
