@@ -79,14 +79,8 @@ developer-app/
    npm install
    ```
 
-3. **Configure your GitHub username**
-   - Open `src/pages/Dashboard.jsx`
-   - Replace `'octocat'` with your GitHub username:
-   ```javascript
-   <GitHubCard username="your-github-username" />
-   ```
 
-4. **Configure weather location (optional)**
+3. **Configure weather location (optional)**
    - Open `src/pages/Dashboard.jsx`
    - Update latitude and longitude for your location:
    ```javascript
@@ -96,12 +90,12 @@ developer-app/
    />
    ```
 
-5. **Start the development server**
+4. **Start the development server**
    ```bash
    npm run dev
    ```
 
-6. **Open your browser**
+5. **Open your browser**
    - Navigate to `http://localhost:5173`
    - The dashboard should now be running!
 
