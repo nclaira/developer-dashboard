@@ -222,3 +222,4 @@ This project is open source and available for educational purposes.
 
 
 ![alt text](developer-app/public/Screenshot1.png)
+![alt text](developer-app/public/Screenshot2.png)
