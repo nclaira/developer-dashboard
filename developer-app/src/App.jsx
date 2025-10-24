@@ -4,12 +4,9 @@ import Dashboard from './pages/Dashboard'
 
 const THEME_STORAGE_KEY = 'developer_dashboard_theme'
 
-// Main App component using normal function
 function App() {
-  // State to manage dark mode (true = dark, false = light)
   const [isDarkMode, setIsDarkMode] = React.useState(false)
 
-  // Load theme preference from localStorage when app starts
   React.useEffect(function() {
     try {
       const savedTheme = localStorage.getItem(THEME_STORAGE_KEY)
@@ -21,7 +18,6 @@ function App() {
     }
   }, [])
 
-  // Save theme preference to localStorage whenever it changes
   React.useEffect(function() {
     try {
       localStorage.setItem(THEME_STORAGE_KEY, isDarkMode ? 'dark' : 'light')
@@ -30,7 +26,6 @@ function App() {
     }
   }, [isDarkMode])
 
-  // Function to toggle between light and dark mode
   function toggleTheme() {
     setIsDarkMode(function(previousMode) {
       return !previousMode
