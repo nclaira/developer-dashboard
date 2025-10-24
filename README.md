@@ -54,7 +54,8 @@ developer-app/
 - │   ├── App.jsx                
 - │   ├── main.jsx               
 - │   └── index.css              
-- ├── public/                     
+- ├── public/ 
+      ├── screenshoot1.png                     
 - ├── index.html                  
 - ├── package.json                
 - ├── vite.config.js           
